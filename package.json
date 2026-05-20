@@ -2,7 +2,9 @@
   "name": "pwdemos",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "navin" : "npx playwright test --project=chromium --headed"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -10,5 +12,8 @@
   "devDependencies": {
     "@playwright/test": "^1.60.0",
     "@types/node": "^25.8.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
   }
 }
